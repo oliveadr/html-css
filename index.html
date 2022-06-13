@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <style>
         body{
             background-color: rgba(150, 171, 174, 0.781);
@@ -17,28 +16,55 @@
             box-shadow: 5px 5px 15px rgba(136,109,93,0.616);
             width: 600px;
             margin: auto;
-            
-        }
-        ul{
-            list-style-image: url("http://squids.com.br/icons/folder.png");
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
         }
         h1{
             text-align: center;
             text-decoration: underline;
         }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+        ul{
+            list-style-image: url("http://squids.com.br/icons/folder.png");
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        p > a{
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+        }
+        ul.social{
+            list-style: none;
+        }
+        aside{
+            margin: auto;
+            width: 200px;
+            border: 1px solid blueviolet;
+            border-radius: 10px;
+            text-align: justify;
+        }
+        aside > p{
+            text-align: center;
+            font-weight: bold;
+        }
+
+       
         
     </style>
     <title>Estudos</title>
 </head>
 <body>
     <main>
-        <h1>Índice de Exercícios</h1>
-        <h2>Módulo 01</h2>
+        <h1>Indice de atividades</h1>
+        <p>Este site tem por objetivo organizar os estudos, exercicios e desafios resolvidos em conjunto com o curso de <a href="https://youtu.be/Ejkb_YpuHWs" target="_blank">HTML5 e CSS3</a> do <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Video</a>, do Profº Gustavo Guanabara </p>
+        <h2>Exercícios</h2>
+        <h3>Módulo 01</h3>
         <ul>
             <li><a href="exercicios/ex001/index.html" target="_blank">Exercício 001</a> - Meu primeiro doc HTML</li>
             <li><a href="exercicios/ex002/index.html" target="_blank">Exercício 002</a> - Parágrafos e quebras de linha</li>
@@ -57,14 +83,14 @@
             <li><a href="exercicios/ex015/index.html" target="_blank">Exercício 015</a> - Estilos externos</li>
         </ul>
         <br>
-        <h2>Módulo 02</h2>
+        <h3>Módulo 02</h3>
         <ul>
             <li><a href="exercicios/ex016/cor01.html" target="_blank">Exercício 016</a> - Cores em CSS</li>
             <li><a href="exercicios/ex017/index.html" target="_blank">Exercício 017</a> - Fontes em CSS</li>
             <li><a href="exercicios/ex018/font01.html" target="_blank">Exercício 018</a> - Google Fonts</li>
         </ul>
         <br>
-        <h2>Módulo 03</h2>
+        <h3>Módulo 03</h3>
         <ul>
             <li><a href="exercicios/ex019/seletor01.html" target="_blank">Exercício 019</a> - Seletores Personalizados </li>
             <li><a href="exercicios/ex020/hover.html" target="_blank">Exercício 020</a> - Hover</li>
@@ -74,18 +100,18 @@
             <li><a href="exercicios/ex021/box03.html" target="_blank">Exercício 021</a> - Caixa 3 </li>
             <li><a href="exercicios/ex022/fundo001.html" target="_blank">Exercício 022</a> - Imagens de fundo</li>
         </ul>
-        <h2>Módulo 04</h2>
+        <h3>Módulo 04</h3>
         <ul>
             <li><a href="exercicios/ex0/index.html" target="_blank">Exercício 0</a> - </li>
             <li><a href="exercicios/ex0/index.html" target="_blank">Exercício 0</a> - </li>
         </ul>
-        <h2>Módulo 05</h2>
+        <h3>Módulo 05</h3>
         <ul>
             <li><a href="exercicios/ex0/index.html" target="_blank">Exercício 0</a> - </li>
             <li><a href="exercicios/ex0/index.html" target="_blank">Exercício 0</a> - </li>
         </ul>
-        <h1>Índice de Desafios</h1>
-        <h2>Módulo 01</h2>
+        <h2>Desafios</h2>
+        <h3>Módulo 01</h3>
         <ul>
             <li><a href="desafios/modulo-01/d001/index.html" target="_blank">Desafio 001</a> - Mensagens</li>
             <li><a href="desafios/modulo-01/d002/index.html" target="_blank">Desafio 002</a> - Imagens </li>
@@ -98,13 +124,23 @@
             <li><a href="desafios/modulo-01/d009/index.html" target="_blank">Desafio 009</a> - Videos </li>
 
         </ul>
-        <h2>Módulo 02</h2>
+        <h3>Módulo 02</h3>
         <ul>
             <li><a href="desafios/modulo-02/d010/index.html" target="_blank">Desafio 010</a> - Primeira página completa </li>
             <li><a href="desafios/modulo-02/d011/index.html" target="_blank">Desafio 011</a> - Desafio Imagens </li>
         </ul>
-
+        <aside>
+                <p>Minhas redes sociais</p>
+                <ul class="social">
+                    <li><img src="desafios/modulo-01/d005/img/icone-github.png" alt=""><a href="https://github.com/oliveadr" target="_blank">GitHub</a></li>
+                    <li><img src="desafios/modulo-01/d005/img/icone-linkedin.png" alt=""><a href="https://www.linkedin.com/in/oliveadr1505/" target="_blank">Linkedin</a></li>
+                    <li><img src="desafios/modulo-01/d005/img/icone-twitter.png" alt=""><a href="https://twitter.com/oliveads" target="_blank">Twitter</a></li>
+                </ul>
+        </aside>
     </main>
+    <footer>
+        <p>feito por oliveadr</p>
+    </footer>
 
 </body>
 </html>
