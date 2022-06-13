@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;  
+}
+h1 {
+    color: darkgreen;
+}
+p {
+   color: darkgreen; 
+   font-style: bold;
+}

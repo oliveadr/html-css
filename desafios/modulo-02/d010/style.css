@@ -1,0 +1,7 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: rgb(131, 146, 165);
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap');
+
+:root{
+ /* Variáveis de Cores*/
+    --cor01:rgb(131,146,165);
+    --cor02:rgb(87, 96, 109);
+ /* Variáveis de fonte*/
+    --fonte-padrao:Arial, Verdana,Helvetica, sans-serif;
+    --fonte-destaque:'Open Sans', sans-serif;
+}
+/* Configuração global*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor01);
+    margin: auto;
+    font-family: var(--fonte-destaque);   
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.466);
+    padding: 15px;
+}
+
+main{
+    border-radius: 5px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+}
+main p{
+    margin: 15px 10px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+header{
+    background-image: linear-gradient(white, rgb(120, 133, 151),rgb(125, 141, 161), rgb(180, 200, 226));
+    text-align: center;   
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1{
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+header p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+section{
+    background-color: white;
+}
+
+nav a {    
+    color: var(--cor02);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: rgb(120, 133, 151);
+    color: white; 
+    text-decoration: solid;
+    font-weight: bold;
+    border-radius: 5px;  
+    padding: 5px;
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 0 15px; 
+}
+li a{
+    text-decoration: none;
+}
+
+
+h2{
+    color: rgb(92, 102, 116);
+    font-style: bolder;
+    padding: 5px;
+}
+
+div.impressora{
+    margin: auto;
+    padding: 10px;
+}
+
+    
+div.video{
+    position: relative;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--cor02);
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+aside{
+    background-color: rgba(91, 122, 153, 0.445);
+    border-radius: 5px;
+}
+aside h3 {
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+aside ul {
+    margin: auto;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+
