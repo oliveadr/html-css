@@ -1,5 +1,102 @@
 @charset "UTF-8";
-        
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #446956;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px  ;
+}
+
+section.normal{
+    background-color: #446956;
+    color: white;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*        
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 header{
@@ -15,11 +112,9 @@ main{
     border: 1px solid black;
     width: 400px;
     font-family:'Fredericka the Great', cursive;
-    background-color: /*#446956*/ black;
+    background-color: #446956;
     color: white;
-    font-size: 1.5em;
-    
-    
+    font-size: 1.5em;  
 }
 a{
     text-decoration: none;
@@ -41,3 +136,4 @@ div.flor{
 div.cartas{
     padding: 10px;
 }
+*/
