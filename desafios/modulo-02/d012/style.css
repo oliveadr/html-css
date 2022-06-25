@@ -77,17 +77,20 @@ section.imagem > p{
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
     text-shadow: 1px 1px 0px black;
+    background-attachment: fixed;
 }
 
 section#img1{
     background-image: url('../d012/img/background001.jpg');
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img2{
     background-image: url('../d012/img/background002.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 footer{
     background-color: black;
